@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Welcome To TCH Bank</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+<!------------------------------------------------------------>
+<style>
+    
+    table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    }
+    th, td {
+    padding: 10px;
+    }
+    
+    table.center {
+        width: 80%;
+        background-color: #f1f1c1;
+        margin-left:auto; 
+        margin-right:auto;
+  }
+    td {
+    height: 30px;
+    vertical-align: bottom;
+    }
+    
+    </style>
+
+</head>
+
+<body>
+
+   <!---------------------header and Logo-------------------->
+    <div class="header">
+        <div id="banklogo"><img src="Untitled-1.png" width="250px"></div>
+        
+        <div class="space"></div>
+        
+        <div class="image"> 
+        <a href="https://www.facebook.com"><img src="fb.jpg" width="25px"></a> </div>
+        
+        <div class="image">
+        <a href="https://www.instagram.com/"> <img src="ins.jpg" width="25px"></a> </div>
+        
+        <div class="image"><a href="https://twitter.com/"> <img src="twi.jpg" width="25px"></a> </div>
+        
+        <div class="image"><a href="https://www.linkedin.com/company/inlink-media"> <img src="lin.jpg" width="25px"></a> </div>
+        
+        <div class="image"> <img src="rss.jpg" width="25px"> </div>
+
+    </div>
+    
+    
+    
+<!---------------------Menu_Navihation-------------------->
+    <div>
+
+        <nav>
+
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+
+            <ul class="menu">
+                <li><a href="Home.html">Home</a></li>
+
+ <!--------------------Personal Banking---------------------->
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Personal Banking </label>
+                    <a href="#">Personal Banking</a>
+                    <input type="checkbox" id="drop-1" />
+                    <ul>
+                        <li><a href="SavingAccount.html">Saving Account</a></li>
+                        <li><a href="FixedDeposite.html">Fixed Deposit Account</a></li>
+                        <li><a href="CurrentAccount.html">Current Account</a></li>
+                        <li><a href="JuniorAccount.html">Junior Account</a></li>
+                    </ul>
+                </li>
+
+
+<!-------------------Business Banking----------------------->
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-2" class="toggle">Business Banking</label>
+                    <a href="#">Business Banking</a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li><a href="HomeLoan.html">Home Loan</a></li>
+                        <li><a href="CorporateLoan.html">Corporate Loan</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+ 
+       
+<!----------------------image as Body-------------------->
+ <div class="divtext">
+ 
+  <h1>Fixed Deposit Account</h1>
+   <img src="photo13.jpg" width="100%" height="500px">
+   <h2>Interest Rate (yearly)</h2>
+   <hr>
+   <table class="center">
+       <tr>
+        <th>Currencies</th>
+       <th><p>1</p> <p>month</p></th>
+       <th><p>2</p> <p>months</p></th>
+       <th><p>3</p> <p>months</p></th>
+       <th><p>6</p> <p>months</p></th>
+       <th><p>9</p> <p>months</p></th>
+       <th><p>12</p> <p>months</p></th>
+       <th><p>24</p> <p>months</p></th>
+       </tr>
+       
+       <tr>
+           <td>US Dollar</td>
+           <td>1.00%</td>
+           <td>1.50%</td>
+           <td>2.00%</td>
+           <td>3.00%</td>
+           <td>3.50%</td>
+           <td>4.75%</td>
+           <td>6.00%</td>
+       </tr>
+       
+       <tr>
+           <td>Riel</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>4.00%</td>
+           <td>5.00%</td>
+           <td>N/A</td>
+           <td>6.00%</td>
+           <td>6.50%</td>          
+       </tr>
+       
+       <tr>
+           <td>Bath</td>
+           <td>1.00%</td>
+           <td>N/A</td>
+           <td>1.50%</td>
+           <td>2.00%</td>
+           <td>N/A</td>
+           <td>2.50%</td>
+           <td>3.00%</td>  
+       </tr>
+       
+       <tr>
+           <td>RMB</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>1.75%</td>
+           <td>2.00%</td>
+           <td>3.00%</td>
+           <td>2.50%</td>
+           <td>3.00%</td>  
+       </tr>
+           
+       <tr>
+           <td>Monthly Interest</td>
+           <td>N/A</td>
+           <td>N/A</td>
+           <td>1.75%</td>
+           <td>2.75%</td>
+           <td>3.20%</td>
+           <td>4.50%</td>
+           <td>5.00%</td>  
+       </tr>
+       
+   </table>
+    
+    <p>
+        The benefits of TCH Fixed Deposit lie in its flexibility. You can choose the tenure of your savings and how you want the interest to be paid, be it monthly or at maturity. Whichever tenure you choose, you can be confident that you will receive a competitive interest rate on your deposit.
+    </p>
+    
+    <h2>Account Requirement</h2>
+    <hr>
+    <ul>
+        <li>Available in 4 currencies: Khmer Riel (KHR), US Dollar (USD), Thai Baht (THB) and Chinese Yuan Renminbi (RMB).</li>
+        <li>Flexible tenure of 1 month, 2 months, 3 months, 6 months, 9 months, 12 months and 24 months.</li>
+        <li>Enjoy attractive rates on your deposit based on the tenure you choose.</li>
+        <li>Interest is automatically credited to your Savings or Current Account.</li>
+        <li>Enjoy flexibility of collecting the interest payment, either monthly or at maturity.</li>
+        <li>Convenient auto-renewal option.</li>
+        <li>Credit card facility up to 80% of deposited balance.</li>
+    </ul>
+    
+    <h2>Conditions</h2>
+    <hr>       
+    <ul>
+        <li>Available for individuals age 18 years and over.</li>
+        <li>Available for Corporate.</li>
+        <li>Currently have a Savings Account or Current Account with the Bank.</li>
+    </ul>
+    
+    <h2>Open Your Current Account Today</h2>
+    <hr>
+    <strong>For Individuals</strong>
+    <ul>
+        <li>Identification Document or Passport.</li>
+        <li>Initial minimum deposit of USD 1,000.</li>
+    </ul>
+    
+
+</div>
+    
+    
+    
+    
+ <!------------Footer---------------->   
+    <div class="footer">
+        <p>All right reserved. &copy; Powered by TCH Bank PLC.</p>
+        <p>Website: www.tchbank.com.kh</p>
+    </div>
+</body>
+
+</html>

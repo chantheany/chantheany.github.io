@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Welcome To TCH Bank</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+<!------------------------------------------------------------>
+<style>
+       
+    input {
+    display: block;
+    width: 250px;
+    float: right;
+    margin-bottom:0px;
+    text-align: center;    
+    }
+
+    label {
+    text-align: right;
+    width: 150px;
+    padding-right: 20px;
+    }
+
+    br {
+    clear: left;
+    }
+
+    div.form
+    {
+    display: block;
+    text-align: center;
+    }
+ 
+    form
+    {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    }
+
+    .cal{
+    text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+   <!---------------------header and Logo-------------------->
+    <div class="header">
+        <div id="banklogo"><img src="Untitled-1.png" width="250px"></div>
+        
+        <div class="space"></div>
+        
+        <div class="image"> 
+        <a href="https://www.facebook.com"><img src="fb.jpg" width="25px"></a> </div>
+        
+        <div class="image">
+        <a href="https://www.instagram.com/"> <img src="ins.jpg" width="25px"></a> </div>
+        
+        <div class="image"><a href="https://twitter.com/"> <img src="twi.jpg" width="25px"></a> </div>
+        
+        <div class="image"><a href="https://www.linkedin.com/company/inlink-media"> <img src="lin.jpg" width="25px"></a> </div>
+        
+        <div class="image"> <img src="rss.jpg" width="25px"> </div>
+
+    </div>
+    
+    
+    
+<!---------------------Menu_Navihation-------------------->
+    <div>
+
+        <nav>
+
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop" />
+
+            <ul class="menu">
+                <li><a href="Home.html">Home</a></li>
+
+ <!--------------------Personal Banking---------------------->
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Personal Banking </label>
+                    <a href="#">Personal Banking</a>
+                    <input type="checkbox" id="drop-1" />
+                    <ul>
+                        <li><a href="SavingAccount.html">Saving Account</a></li>
+                        <li><a href="FixedDeposite.html">Fixed Deposit Account</a></li>
+                        <li><a href="CurrentAccount.html">Current Account</a></li>
+                        <li><a href="JuniorAccount.html">Junior Account</a></li>
+                    </ul>
+                </li>
+
+
+<!-------------------Business Banking----------------------->
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-2" class="toggle">Business Banking</label>
+                    <a href="#">Business Banking</a>
+                    <input type="checkbox" id="drop-2" />
+                    <ul>
+                        <li><a href="HomeLoan.html">Home Loan</a></li>
+                        <li><a href="CorporateLoan.html">Corporate Loan</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+ 
+       
+<!----------------------image as Body-------------------->
+ <div class="divtext">
+   <h2>Loan Calculator</h2>
+   <hr>
+    <p>This calculator lets you estimate your monthly loan repayments. It also determines out how much of your repayments will go towards the principal and how much will go towards interest rate.</p>
+
+    <h2>How To Use:</h2>
+    <hr>
+    <ol>
+        <li>Please input Loan Amount</li>
+        <li>Please choose Starting Date</li>
+        <li>Please input Duration (months)</li>
+        <li>Please inpute Interest Rate</li>
+        <li>In the end, click on Calculator button</li>
+    </ol>
+    
+    <div class="form"> 
+        <form>
+            <fieldset>
+                <legend>Loan Calculator:</legend>
+                <label for="loanAmount">Loan Amount:</label>
+                <input type="text" name="loanAmount"  ><br>
+                
+                <label for="startDate">Start Date:</label>
+                <input type="date" name="startDate"><br>
+                
+                <label for="duration">Duration(Months):</label>
+                <input type="number" name="duration"><br>
+            
+                <label for="interestRate">Interest Rate:</label>
+                <input type="number" name="InterestRate"><br>
+        
+                <input type="submit" value="calculate">
+                
+                
+            </fieldset>
+        </form>
+         
+    </div>
+    
+</div>
+    
+    
+    
+    
+ <!------------Footer---------------->   
+    <div class="footer">
+        <p>All right reserved. &copy; Powered by TCH Bank PLC.</p>
+        <p>Website: www.tchbank.com.kh</p>
+    </div>
+</body>
+
+</html>
